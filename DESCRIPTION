@@ -1,0 +1,13 @@
+Package: montyhall
+Title: Monty Hall Three Doors Edition
+Version: 0.0.0.9000
+Authors@R: 
+    person("Linda", "Alvarez", , "lmalva15@asu.edu", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: "This project allows one to create a game with three doors, two being goats, one being a car. This game allows us to test out the Monty Hall Theory by allowing the contestant to choose a door, the host chosing a door and the contestant being able to either keep their choice or switch. At the end of the game one is allowed to determine whether or not the contestant has chosen a door with a goat behind it or a car."
+Depends: 
+   dplyr
+License: use_mit_license()
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
